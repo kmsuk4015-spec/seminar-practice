@@ -46,7 +46,7 @@ command.
 `test.rtf` is RTF produced by macOS TextEdit. Two things matter:
 
 - **Encoding.** The header declares `\ansicpg949` (Korean). Korean characters
-  are stored as RTF escapes such as `\uc0偐4` — not as raw UTF-8. When
+  are stored as RTF escapes such as `\uc0\u50504` — not as raw UTF-8. When
   adding Korean text, either keep the same escape form or let a real RTF
   editor write the file; typing raw UTF-8 Korean bytes into the file will
   render incorrectly.
