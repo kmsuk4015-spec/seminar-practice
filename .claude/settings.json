@@ -1,0 +1,11 @@
+{
+  "model": "sonnet",
+  "autoMemoryEnabled": false,
+  "permissions": {
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(!.env.example)"
+    ]
+  }
+}
